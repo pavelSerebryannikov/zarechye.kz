@@ -1,0 +1,158 @@
+/* Базовые стили для мобильных устройств */
+.fixed_nav {
+    display: none;
+}
+
+header .row.d-none.d-lg-block ul {
+    display: none;
+}
+
+header .col-7.col-md-5.h_3 button.d-none.d-lg-block {
+    display: none;
+}
+
+.slider_block .slide_text h1 {
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+.about_block h2,
+.gallery_block h2 {
+    font-size: 1.8rem;
+}
+
+.about_block_2 h2 {
+    font-size: 1.5rem;
+}
+
+.slide_text_2 h3 {
+    font-size: 1.3rem;
+}
+
+#thumbs .slide_text_3 h4 {
+    font-size: 1rem;
+}
+
+/* Стили для экранов шириной от 576px */
+@media (min-width: 576px) {
+    .slider_block .slide_text h1 {
+        font-size: 2.5rem;
+    }
+
+    .about_block h2,
+    .gallery_block h2 {
+        font-size: 2rem;
+    }
+
+    .about_block_2 h2 {
+        font-size: 1.7rem;
+    }
+
+    .slide_text_2 h3 {
+        font-size: 1.5rem;
+    }
+
+    #thumbs .slide_text_3 h4 {
+        font-size: 1.2rem;
+    }
+
+    .container {
+        max-width: 540px;
+    }
+}
+
+/* Стили для экранов шириной от 768px */
+@media (min-width: 768px) {
+    .fixed_nav {
+        display: block;
+    }
+
+    header .row.d-none.d-lg-block ul {
+        display: flex;
+    }
+
+    header .col-7.col-md-5.h_3 button.d-none.d-lg-block {
+        display: block;
+    }
+
+    .slider_block .slide_text h1 {
+        font-size: 3rem;
+    }
+
+    .about_block h2,
+    .gallery_block h2 {
+        font-size: 2.2rem;
+    }
+
+    .about_block_2 h2 {
+        font-size: 1.9rem;
+    }
+
+    .slide_text_2 h3 {
+        font-size: 1.7rem;
+    }
+
+    #thumbs .slide_text_3 h4 {
+        font-size: 1.4rem;
+    }
+
+    .container {
+        max-width: 720px;
+    }
+}
+
+/* Стили для экранов шириной от 992px */
+@media (min-width: 992px) {
+    .slider_block .slide_text h1 {
+        font-size: 3.5rem;
+    }
+
+    .about_block h2,
+    .gallery_block h2 {
+        font-size: 2.5rem;
+    }
+
+    .about_block_2 h2 {
+        font-size: 2.1rem;
+    }
+
+    .slide_text_2 h3 {
+        font-size: 1.9rem;
+    }
+
+    #thumbs .slide_text_3 h4 {
+        font-size: 1.6rem;
+    }
+
+    .container {
+        max-width: 960px;
+    }
+}
+
+/* Стили для экранов шириной от 1200px */
+@media (min-width: 1200px) {
+    .slider_block .slide_text h1 {
+        font-size: 4rem;
+    }
+
+    .about_block h2,
+    .gallery_block h2 {
+        font-size: 2.8rem;
+    }
+
+    .about_block_2 h2 {
+        font-size: 2.3rem;
+    }
+
+    .slide_text_2 h3 {
+        font-size: 2.1rem;
+    }
+
+    #thumbs .slide_text_3 h4 {
+        font-size: 1.8rem;
+    }
+
+    .container {
+        max-width: 1140px;
+    }
+}

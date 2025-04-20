@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /poleznye-dokumenty-dlya-oznakomleniya
+Disallow: /admin
+Disallow: /private
+
+Sitemap: https://zarechye.kz/sitemap.xml

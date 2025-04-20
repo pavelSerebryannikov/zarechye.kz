@@ -1,0 +1,58 @@
+#be-booking-form-certificates {
+    width: 100%;
+    max-width: 1296px;
+    margin: 0 auto;
+}
+
+#tl-booking-cart {
+    z-index: 1 !important;
+}
+
+.be-page .inst,
+.be-page footer iframe,
+.be-page .b24-widget-button-wrapper,
+.be-page footer .col div:last-child {
+    display: none !important;
+}
+
+.be-page .publication_zag {
+    text-align: center;
+    margin: 5rem 0 3rem 0 !important;
+}
+
+.be-certificates-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1.5rem;
+    padding: 3px 24px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    border-radius: 8px;
+    max-width: 176px;
+    min-height: 48px;
+    background: #be9f83;
+    text-decoration: none;
+}
+
+.be-certificates-link:hover {
+    background: #111;
+    color: #fff !important;
+}
+
+.be-header {
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 991px) {
+    .be-certificates-link.desktop {
+        display: none;
+    }
+    .be-mobile-link button {
+        margin-top: 10px;
+    }
+}
